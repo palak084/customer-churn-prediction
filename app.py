@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS injections for premium visual quality and user-friendliness
+# Custom CSS injections for premium visual quality
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
@@ -21,7 +21,7 @@ st.markdown("""
         font-family: 'Outfit', sans-serif;
     }
     
-    /* Background style override */
+    /* Background style */
     .stApp {
         background: linear-gradient(180deg, #F9FBFC 0%, #F3F6FA 100%);
     }
@@ -66,7 +66,7 @@ st.markdown("""
     /* Styled Submit Button */
     button[kind="formSubmit"] {
         background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%) !important;
-        color: white !not-important;
+        color: white !important;
         border: none !important;
         padding: 0.8rem 2rem !important;
         border-radius: 12px !important;
